@@ -28,7 +28,7 @@ jobs:
       - name: Charger les fichiers du site
         uses: actions/upload-pages-artifact@v4
         with:
-          path: index.html
+          path: .
       - name: Publier
         id: deployment
         uses: actions/deploy-pages@v4
